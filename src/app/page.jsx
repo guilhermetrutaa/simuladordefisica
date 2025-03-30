@@ -28,15 +28,15 @@ function page() {
       <div className='flex gap-5 justify-center items-center pt-10'>
 
         <div>
-          <button className='bg-[#fff] shadow-md text-[#000] text-[2rem] py-1 px-5 rounded-[0.20rem] border-[#b0b0b0] border cursor-pointer' onClick={() => router.push('/home/primeiroano')}>1º ano</button>
+          <button className='bg-[#fff] hover:bg-[#000] hover:text-[#fff] transition delay-20 duration-200 ease-in-out border border-[#000] text-[#000] text-[2rem] py-1 px-5 rounded-[1rem] cursor-pointer' onClick={() => router.push('/home/primeiroano')}>1º ano</button>
+        </div> 
+
+        <div>
+          <button className='bg-[#fff] hover:bg-[#000] hover:text-[#fff] transition delay-20 duration-200 ease-in-out border border-[#000] text-[#000] text-[2rem] py-1 px-5 rounded-[1rem] cursor-pointer'>2º ano</button>
         </div>
 
         <div>
-          <button className='bg-[#fff] shadow-md text-[#000] text-[2rem] py-1 px-5 rounded-[0.20rem] border-[#b0b0b0] border cursor-pointer'>2º ano</button>
-        </div>
-
-        <div>
-          <button className='bg-[#fff] shadow-md text-[#000] text-[2rem] py-1 px-5 rounded-[0.20rem] border-[#b0b0b0] border cursor-pointer'>3º ano</button>
+          <button className='bg-[#fff] hover:bg-[#000] hover:text-[#fff] transition delay-20 duration-200 ease-in-out border border-[#000] text-[#000] text-[2rem] py-1 px-5 rounded-[1rem] cursor-pointer'>3º ano</button>
         </div>
 
       </div>

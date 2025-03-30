@@ -24,41 +24,41 @@ function page() {
         <p className='text-[1.1rem] text-[#000] text-center font-light pt-2'>Escolha o experimento que queres apresentar</p>
       </div>
 
-      <div id='Tabela-Fisica' className='flex pt-5'>
+      <div id='Tabela-Fisica' className=' pt-5 lg:flex sm:block'>
 
         <div>
           <h1 className='text-[#000] text-[1.2rem] font-semibold pl-10 pt-5'>Introdução à Física:</h1>
-          <div className='pl-10 pt-1' 
+          <div className='pl-10 pt-3' 
           onClick={() => router.push('/experimentos/grandezasfisicas')}>
-            <button className='bg-[#fff] shadow-md text-[#000] text-[1.2rem] py-1 px-1 rounded-[0.20rem] border-[#b0b0b0] border cursor-pointer' >Grandezas físicas e medidas</button>
+            <button className='bg-[#fff] hover:bg-[#000] hover:text-[#fff] text-[#000] text-[1.2rem] py-2 px-3 rounded-[1rem] border border-[#000] cursor-pointer transition delay-20 duration-200 ease-in-out'>Grandezas físicas e medidas</button>
           </div>
-          <div className='pl-10 pt-1'>
-            <button className='bg-[#fff] shadow-md text-[#000] text-[1.2rem] py-1 px-1 rounded-[0.20rem] border-[#b0b0b0] border cursor-pointer'>Sistemas de unidades</button>
+          <div className='pl-10 pt-3'>
+            <button className='bg-[#fff] hover:bg-[#000] hover:text-[#fff] text-[#000] text-[1.2rem] py-2 px-3 rounded-[1rem] border border-[#000] cursor-pointer transition delay-20 duration-200 ease-in-out'>Sistemas de unidades</button>
           </div>
-          <div className='pl-10 pt-1'>
-            <button className='bg-[#fff] shadow-md text-[#000] text-[1.2rem] py-1 px-1 rounded-[0.20rem] border-[#b0b0b0] border cursor-pointer'>Notação Científica</button>
+          <div className='pl-10 pt-3'>
+            <button className='bg-[#fff] hover:bg-[#000] hover:text-[#fff] text-[#000] text-[1.2rem] py-2 px-3 rounded-[1rem] border border-[#000] cursor-pointer transition delay-20 duration-200 ease-in-out'>Notação Científica</button>
           </div>
-          <div className='pl-10 pt-1'>
-            <button className='bg-[#fff] shadow-md text-[#000] text-[1.2rem] py-1 px-1 rounded-[0.20rem] border-[#b0b0b0] border cursor-pointer'>Vetores</button>
+          <div className='pl-10 pt-3'>
+            <button className='bg-[#fff] hover:bg-[#000] hover:text-[#fff] text-[#000] text-[1.2rem] py-2 px-3 rounded-[1rem] border border-[#000] cursor-pointer transition delay-20 duration-200 ease-in-out'>Vetores</button>
           </div>
         </div>
 
         <div>
           <h1 className='text-[#000] text-[1.2rem] font-semibold pl-10 pt-5'>Cinemática:</h1>
-          <div className='pl-10 pt-1'>
-            <button className='bg-[#fff] shadow-md text-[#000] text-[1.2rem] py-1 px-1 rounded-[0.20rem] border-[#b0b0b0] border cursor-pointer'>Movimento uniforme (MU)</button>
+          <div className='pl-10 pt-3'>
+            <button className='bg-[#fff] hover:bg-[#000] hover:text-[#fff] text-[#000] text-[1.2rem] py-2 px-3 rounded-[1rem] border border-[#000] cursor-pointer transition delay-20 duration-200 ease-in-out'>Movimento uniforme (MU)</button>
           </div>
-          <div className='pl-10 pt-1'>
-            <button className='bg-[#fff] shadow-md text-[#000] text-[1.2rem] py-1 px-1 rounded-[0.20rem] border-[#b0b0b0] border cursor-pointer'>Movimento uniformemente variado (MUV)</button>
+          <div className='pl-10 pt-3'>
+            <button className='bg-[#fff] hover:bg-[#000] hover:text-[#fff] text-[#000] text-[1.2rem] py-2 px-3 rounded-[1rem] border border-[#000] cursor-pointer transition delay-20 duration-200 ease-in-out' >Movimento uniformemente variado (MUV)</button>
           </div>
-          <div className='pl-10 pt-1'>
-            <button className='bg-[#fff] shadow-md text-[#000] text-[1.2rem] py-1 px-1 rounded-[0.20rem] border-[#b0b0b0] border cursor-pointer'>Queda livre e lançamento vertical</button>
+          <div className='pl-10 pt-3'>
+            <button className='bg-[#fff] hover:bg-[#000] hover:text-[#fff] text-[#000] text-[1.2rem] py-2 px-3 rounded-[1rem] border border-[#000] cursor-pointer transition delay-20 duration-200 ease-in-out' >Queda livre e lançamento vertical</button>
           </div>
-          <div className='pl-10 pt-1'>
-            <button className='bg-[#fff] shadow-md text-[#000] text-[1.2rem] py-1 px-1 rounded-[0.20rem] border-[#b0b0b0] border cursor-pointer'>Lançamento horizontal e oblíquo</button>
+          <div className='pl-10 pt-3'>
+            <button className='bg-[#fff] hover:bg-[#000] hover:text-[#fff] text-[#000] text-[1.2rem] py-2 px-3 rounded-[1rem] border border-[#000] cursor-pointer transition delay-20 duration-200 ease-in-out' >Lançamento horizontal e oblíquo</button>
           </div>
-          <div className='pl-10 pt-1'>
-            <button className='bg-[#fff] shadow-md text-[#000] text-[1.2rem] py-1 px-1 rounded-[0.20rem] border-[#b0b0b0] border cursor-pointer'>Movimento circular uniforme</button>
+          <div className='pl-10 pt-3'>
+            <button className='bg-[#fff] hover:bg-[#000] hover:text-[#fff] text-[#000] text-[1.2rem] py-2 px-3 rounded-[1rem] border border-[#000] cursor-pointer transition delay-20 duration-200 ease-in-out' >Movimento circular uniforme</button>
           </div>
         </div>
 
